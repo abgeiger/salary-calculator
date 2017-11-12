@@ -12,6 +12,7 @@
 <body>
     <h1>Salary Calculator</h1>
     <div id="inputDiv">
+        
         <span>First Name:</span>
         <input id="firstNameInput"/>
         <br>
@@ -27,9 +28,29 @@
         <span>Annual Salary:</span>
         <input id="annualSalaryInput"/>
     </div>
-    <button>Submit</button>
-    <div id="messageDiv">
-
-    </div>
+    <button id="submitButton">Submit</button>
+    <table class="paleBlueRows">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID Number</th>
+                <th>Job Title</th>
+                <th>Annual Salary</th>
+                <th>Monthly Costs</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="totalMonthlyCosts">Total:<br></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
