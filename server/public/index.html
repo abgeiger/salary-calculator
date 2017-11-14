@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Salary Calculator</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="jquery-3.2.1.js"></script>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="vendors/jquery-3.2.1.js"></script>
+    <script src="scripts/client.js"></script>
 </head>
 <body>
     <h1>Salary Calculator</h1>
@@ -29,6 +29,7 @@
         <input id="annualSalaryInput"/>
     </div>
     <button id="submitButton">Submit</button>
+    <h3 id="monthlyCost">Total Monthly Cost:</h3>
     <table class="paleBlueRows">
         <thead>
             <tr>
@@ -42,14 +43,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td id="totalMonthlyCosts">Total:<br></td>
-            </tr>
+            
         </tbody>
     </table>
 </body>
